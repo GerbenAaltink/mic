@@ -7,10 +7,6 @@
 This will start the development server and automatically create and apply migrations
 
 
-### General overview of end points
-Go to http://localhost:8000/
-
-
 ### Create device type 
 Go to http://localhost:8000/device_type
 
