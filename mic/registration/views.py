@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
-from rest_framework import viewsets
+from rest_framework import viewsets, permissions
 
 from .models import Building, Location, Registration, Device, DeviceType
 from .serializers import (
@@ -36,3 +36,4 @@ class DeviceViewSet(viewsets.ModelViewSet):
 class DeviceTypeViewSet(viewsets.ModelViewSet):
     queryset = DeviceType.objects.all()
     serializer_class = DeviceTypeSerializer
+
