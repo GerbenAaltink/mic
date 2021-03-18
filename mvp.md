@@ -1,6 +1,7 @@
 
 # Project description
 Simple application for registration of device usage. Device types, devices and locations are manageable using the django admin. For registration of usage percentage is a rest api available.
+For REST endpoints the Django Rest Framework will be used.
 
 ## Application API
 
